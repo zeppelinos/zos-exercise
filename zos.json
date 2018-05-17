@@ -1,0 +1,7 @@
+{
+  "name": "ethba-exercise",
+  "version": "0.1.0",
+  "contracts": {
+    "MyWallet": "MyWallet"
+  }
+}

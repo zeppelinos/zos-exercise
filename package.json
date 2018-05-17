@@ -1,0 +1,31 @@
+{
+  "name": "ethba-exercise",
+  "version": "1.0.0",
+  "description": "Basic exercise using ZeppelinOS for ETHBA",
+  "main": "truffle.js",
+  "scripts": {
+    "test": "npx truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeppelinos/ethba-exercise.git"
+  },
+  "keywords": [
+    "ethba",
+    "ethereum",
+    "zeppelinos",
+    "smartcontracts",
+    "solidity",
+    "evm"
+  ],
+  "author": "Facu Spagnuolo <facundo@zeppelin.solutions>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeppelinos/ethba-exercise/issues"
+  },
+  "homepage": "https://github.com/zeppelinos/ethba-exercise#readme",
+  "dependencies": {
+    "truffle": "^4.1.6",
+    "zos": "^0.6.0"
+  }
+}
