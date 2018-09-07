@@ -35,7 +35,7 @@ zos create MyWallet --network local
 As you can see, a new `zos.local.json` including all the data of the contracts of your project.
 You can check your buggy contract running the following commands over the truffle console:
 
-```
+```js
 walletAddress = require('./zos.local.json').proxies['MyWallet'][0].address
 wallet = MyWallet.at(walletAddress)
 
@@ -70,7 +70,7 @@ zos upgrade MyWallet --network local
 
 Now let's try the same commands over the truffle console to check our contract instance has been upgraded correctly.
 
-```
+```js
 walletAddress = require('./zos.local.json').proxies['MyWallet'][0].address
 wallet = MyWallet.at(walletAddress)
 
