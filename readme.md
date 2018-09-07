@@ -1,4 +1,4 @@
-# ETHBA exercise using ZeppelinOS
+# Basic exercise to get started with ZeppelinOS
 
 ## Setup
 The first thing you should do is to install `zos`.
@@ -8,8 +8,8 @@ npm install -g zos
 
 Then, follow the subsequent commands to setup the exercise project:
 ```
-git clone git@github.com:zeppelinos/ethba-exercise.git
-cd ethba-exercise
+git clone git@github.com:zeppelinos/zos-ethberlin-exercise.git
+cd zos-ethberlin-exercise
 npm install
 ```
 
