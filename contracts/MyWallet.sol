@@ -1,4 +1,4 @@
-pragma solidity ^0.4.21;
+pragma solidity ^0.4.24;
 
 contract MyWallet {
   event DepositReceived(address sender, uint256 value);
@@ -15,8 +15,8 @@ contract MyWallet {
     owner = _owner;
   }
 
-  function () payable {
-    DepositReceived(msg.sender, msg.value);
+  function () payable public {
+    emit DepositReceived(msg.sender, msg.value);
   }
 
   function withdraw(uint256 value) public onlyOwner {

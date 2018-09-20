@@ -1,14 +1,14 @@
 {
-  "name": "ethba-exercise",
+  "name": "zos-exercise",
   "version": "1.0.0",
-  "description": "Basic exercise using ZeppelinOS for ETHBA",
+  "description": "Basic exercise using ZeppelinOS",
   "main": "truffle.js",
   "scripts": {
     "test": "npx truffle test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zeppelinos/ethba-exercise.git"
+    "url": "https://github.com/zeppelinos/zos-exercise.git"
   },
   "keywords": [
     "ethba",
@@ -21,11 +21,11 @@
   "author": "Facu Spagnuolo <facundo@zeppelin.solutions>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zeppelinos/ethba-exercise/issues"
+    "url": "https://github.com/zeppelinos/zos-exercise/issues"
   },
-  "homepage": "https://github.com/zeppelinos/ethba-exercise#readme",
+  "homepage": "https://github.com/zeppelinos/zos-exercise#readme",
   "dependencies": {
-    "truffle": "^4.1.6",
-    "zos": "^0.6.0"
+    "truffle": "^4.1.14",
+    "zos": "^1.4.2"
   }
 }
